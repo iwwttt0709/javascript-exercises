@@ -13,7 +13,9 @@ const firstName = "Carlos"
     , lastName = "Stevenson"
     , thisYear = 1965
     , birthYear = 1947
-    , greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + String(thisYear - birthYear) + " years old.";
+    , greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + String(thisYear - birthYear) + " years old."
+    , fullName = firstName + " " + lastName
+    , age = thisYear - birthYear;
 
 
 
